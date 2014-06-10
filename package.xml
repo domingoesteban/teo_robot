@@ -1,0 +1,26 @@
+<package>
+	<name>teo_robot</name>
+	<version>0.0.1</version>
+
+	<description>
+	  The teo_robot metapackage contains some useful nodes to integrate the TEO humanoid robot into ROS.
+	</description>
+
+	<license>BSD</license> <!-- VER SI ESTA BIEN ESTA LICENCIA -->
+	<url>http://www.ros.org/wiki/teo_robot</url>
+	<url type="repository">https://github.com/domingoesteban/teo_robot</url>
+
+	<maintainer email="mingo.esteban@gmail.com">Domingo Esteban</maintainer>
+	<author email="mingo.esteban@gmail.com">Domingo Esteban</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<run_depend>teo_description</run_depend>
+	<run_depend>teo_remote</run_depend>
+	<run_depend>teo_msgs</run_depend>
+
+	<export>
+	  <metapackage/>
+	</export>
+
+</package>
